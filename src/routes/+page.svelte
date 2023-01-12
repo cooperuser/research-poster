@@ -27,9 +27,9 @@
         <li>Capable of extreme complexity</li>
       </ul>
       <div class="flex">
-        <img src="/embryo.png" alt="network" class="worm" />
+        <img src="/embryo.png" alt="embryo" class="worm" />
         <div>&rightarrow;</div>
-        <img src="/person.png" alt="network" class="worm" />
+        <img src="/person.png" alt="person" class="worm" />
       </div>
     </div>
     <div class="center">
@@ -38,10 +38,10 @@
       <ul>
         <li>CTRNN</li>
       </ul>
-        <img src="/activation.png" alt="network" class="img" />
+        <img src="/activation.png" alt="activation" class="img" />
         <div class="flex">
           <img src="/network.png" alt="network" class="network" />
-          <img src="/parametric.png" alt="network" class="network" />
+          <img src="/parametric.png" alt="parametric" class="network" />
         </div>
       <ul>
         <li>Making it developmental: Add more neurons over time</li>
@@ -52,9 +52,9 @@
         <li>Making it developmental: Adding more body segmentals over time</li>
       </ul>
       <div class="flex">
-        <img src="/worm-2.png" alt="network" class="worm" />
+        <img src="/worm-2.png" alt="worm with 2 segments" class="worm" />
         <div>&rightarrow;</div>
-        <img src="/worm-3.png" alt="network" class="worm" />
+        <img src="/worm-3.png" alt="worm with 3 segments" class="worm" />
       </div>
     </div>
     <div class="right">
@@ -64,8 +64,10 @@
       <ul>
         <li>Chaotically varying weights</li>
         <img src="/flux.png" alt="flux" class="img" />
-        Like the game, "hotter or colder," it is a method of reinforcement
+        Like the game "hotter or colder," it is a method of reinforcement
       </ul>
+      <h3>Evolutionary process</h3>
+      <img src="/evolution.png" alt="evolution" class="img" />
     </div>
   </div>
 </div>
