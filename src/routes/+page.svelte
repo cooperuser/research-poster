@@ -26,6 +26,11 @@
         <li>Observed in biology</li>
         <li>Capable of extreme complexity</li>
       </ul>
+      <div class="flex">
+        <img src="/embryo.png" alt="network" class="worm" />
+        <div>&rightarrow;</div>
+        <img src="/person.png" alt="network" class="worm" />
+      </div>
     </div>
     <div class="center">
       <h3>Methodology</h3>
@@ -44,18 +49,18 @@
       <h4>Developmental Body model</h4>
       <ul>
         <li>Spring-Mass system</li>
-        <li>Making it developmental: Adding more body segmentals over tiem</li>
+        <li>Making it developmental: Adding more body segmentals over time</li>
       </ul>
       <div class="flex">
-        <img src="/worm-2.png" alt="network" class="network" />
+        <img src="/worm-2.png" alt="network" class="worm" />
         <div>&rightarrow;</div>
-        <img src="/worm-3.png" alt="network" class="network" />
+        <img src="/worm-3.png" alt="network" class="worm" />
       </div>
     </div>
     <div class="right">
       <h3>Experiments</h3>
       <img src="/goals.png" alt="goals" class="img" />
-      <h3>Contributions</h3>
+      <h3>Reinforcement Learning</h3>
       <ul>
         <li>Chaotically varying weights</li>
         <img src="/flux.png" alt="flux" class="img" />
@@ -85,6 +90,10 @@
 
   .network {
     height: 100px;
+  }
+
+  .worm {
+    height: 80px;
   }
 
   .img {
