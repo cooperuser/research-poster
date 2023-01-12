@@ -12,7 +12,6 @@
         <li>Dynamic Neural Networks</li>
         <li>Continuous-Time Recurrent Neural Networks</li>
         <li>Reinforcement Learning-like Rule</li>
-        <li>Developmental processess</li>
       </ul>
       <h3>Motivation</h3>
       <img src="/worm.gif" alt="worm gif" class="img" />
@@ -22,36 +21,46 @@
           <li>We want to get similar results on the timescale of a single lifetime.</li>
         </ul>
       </ul>
-      <span>
-      </span>
+      <h4>Developmental process</h4>
+      <ul>
+        <li>Observed in biology</li>
+        <li>Capable of extreme complexity</li>
+      </ul>
     </div>
     <div class="center">
       <h3>Methodology</h3>
       <h4>Developmental Brain model</h4>
       <ul>
         <li>CTRNN</li>
-        <img src="/network.png" alt="network" class="network" />
+      </ul>
+        <img src="/activation.png" alt="network" class="img" />
+        <div class="flex">
+          <img src="/network.png" alt="network" class="network" />
+          <img src="/parametric.png" alt="network" class="network" />
+        </div>
+      <ul>
         <li>Making it developmental: Add more neurons over time</li>
       </ul>
       <h4>Developmental Body model</h4>
       <ul>
         <li>Spring-Mass system</li>
-        <!-- <img src="/spring-mass.jpg" alt="spring-mass" class="img" /> -->
         <li>Making it developmental: Adding more body segmentals over tiem</li>
       </ul>
+      <div class="flex">
+        <img src="/worm-2.png" alt="network" class="network" />
+        <div>&rightarrow;</div>
+        <img src="/worm-3.png" alt="network" class="network" />
+      </div>
     </div>
     <div class="right">
       <h3>Experiments</h3>
       <img src="/goals.png" alt="goals" class="img" />
-      Test how well the worm can move right in the following configurations:
-      <ol>
-        <li>Adult brain with an adult body</li>
-        <li>Adult brain with a growing body</li>
-        <li>Growing brain with an adult body</li>
-        <li>Growing brain with a growing body</li>
-      </ol>
       <h3>Contributions</h3>
-      <img src="/flux.png" alt="flux" class="flux" />
+      <ul>
+        <li>Chaotically varying weights</li>
+        <img src="/flux.png" alt="flux" class="img" />
+        Like the game, "hotter or colder," it is a method of reinforcement
+      </ul>
     </div>
   </div>
 </div>
@@ -64,26 +73,38 @@
     text-align: center;
   }
 
+  h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
   .rose {
     float: left;
     height: 100px;
   }
 
   .network {
-    height: 80px;
-  }
-
-  .flux {
-    height: 120px;
+    height: 100px;
   }
 
   .img {
     width: 100%;
   }
 
+  .flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  /* .flex-1 {
+    flex: 1;
+  } */
+
   /* Layout */
   :root {
     --gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   .container {
