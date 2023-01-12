@@ -12,6 +12,7 @@
         <li>Dynamic Neural Networks</li>
         <li>Continuous-Time Recurrent Neural Networks</li>
         <li>Reinforcement Learning-like Rule</li>
+        <li>Developmental processess</li>
       </ul>
       <h3>Motivation</h3>
       <img src="/worm.gif" alt="worm gif" class="img" />
@@ -35,7 +36,7 @@
       <h4>Developmental Body model</h4>
       <ul>
         <li>Spring-Mass system</li>
-        <img src="/spring-mass.jpg" alt="spring-mass" class="img" />
+        <!-- <img src="/spring-mass.jpg" alt="spring-mass" class="img" /> -->
         <li>Making it developmental: Adding more body segmentals over tiem</li>
       </ul>
     </div>
@@ -87,14 +88,14 @@
 
   .container {
     position: relative;
-    width: 800px;
-    height: 600px;
+    width: 1000px;
+    height: 750px;
     display: flex;
     flex-direction: column;
     gap: var(--gap);
     padding: var(--gap);
     box-sizing: border-box;
-    /* margin: auto; */
+    margin: auto;
   }
 
   .columns {
